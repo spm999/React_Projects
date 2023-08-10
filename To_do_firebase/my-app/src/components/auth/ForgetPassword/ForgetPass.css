@@ -1,0 +1,44 @@
+/* CSS for ForgetPassword component */
+.ForgetPassword {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .ForgetPassword h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ForgetPassword form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ForgetPassword input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ForgetPassword button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ForgetPassword p {
+    margin-top: 10px;
+  }
+  
+  .ForgetPassword .success-message {
+    color: green;
+  }
+  
+  .ForgetPassword .error-message {
+    color: red;
+  }
+  
