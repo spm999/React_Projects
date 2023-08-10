@@ -110,6 +110,13 @@ const TodoList = () => {
       console.error('Error logging out:', error);
     }
   };
+  const currentUser = firebase.auth().currentUser;
+  if (!currentUser) {
+    navigate("/");
+  }
+  else{
+    navigate(`/TodoList/${currentUser.uid}`);
+  }
 
   return (
     <div className="todo-container">
